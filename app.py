@@ -1,5 +1,5 @@
 import streamlit as st
-from transformers import pipeline
+from transformers import pipeline,set_seed
 
 # Load sentiment analysis model
 sentiment_analyzer = pipeline("sentiment-analysis")
